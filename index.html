@@ -25,10 +25,20 @@
 	<input type="radio" id="nop" name="contact" value="No" />
 </div>
 <div>
-	<b><label for="email"> contact: </label></b>
+	<b><label for="name"> Name: </label></b>
+	<input type="text" id="name" name="Name" placeholder="enter your name" required>
+</div>
+<div>
+	<b><label for="Contact"> Contact: </label></b>
+	<input type="tel" id="Contact" name="Contact" placeholder="enter contact info" required />
+</div>
+<div>
+	<b><label for="email"> Email: </label></b>
 	<input type="email" id="email"  placeholder="input email" required />
 </div>
 <div>
+	<b><label for="textarea"> Comment: </label></b><br>
+	<textarea rows="6" cols="35" id="textarea" name="Comment" placeholder="write comment here"></textarea>
 	<br>
 	<button type="reset"> Reset </button>
 	<button type="submit" formaction="mailto:ssavaemma4@gmail.com">Submit</button>
